@@ -1,5 +1,5 @@
 {
-  "name": "rjv",
+  "name": "react-json-view",
   "description": "Interactive react component for displaying javascript arrays and JSON objects. From package react-json-view",
   "version": "1.2.0",
   "private": false,
