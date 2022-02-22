@@ -2,6 +2,7 @@
   "name": "rjv",
   "description": "Interactive react component for displaying javascript arrays and JSON objects. From package react-json-view",
   "version": "1.2.0",
+  "private": false,
   "main": "dist/main.js",
   "devDependencies": {
     "react": "^16.3.0",
@@ -81,11 +82,6 @@
     "treeview"
   ],
   "license": "MIT",
-  "author": "Mac Gainor",
-  "bugs": {
-    "url": "https://github.com/mac-s-g/react-json-view/issues"
-  },
-  "homepage": "https://github.com/mac-s-g/react-json-view",
   "directories": {
     "docs": "docs",
     "test": "test"
