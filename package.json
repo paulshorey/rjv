@@ -5,8 +5,6 @@
   "private": false,
   "main": "dist/main.js",
   "devDependencies": {
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.5",
     "babel-loader": "^7.1.4",
@@ -42,6 +40,10 @@
     "webpack-bundle-size-analyzer": "^3.1.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^16.3.0 || ^15.5.4",
+    "react-dom": "^17.0.0 || ^16.3.0 || ^15.5.4"
   },
   "scripts": {
     "build": "webpack --config webpack/webpack.config.js -p --display-error-details --progress --optimize-minimize",
